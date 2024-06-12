@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsx ./src/index.ts",
-    "build": "node esbuild.js",
+    "build": "tsx esbuild.ts",
     "test": "vitest"
   },
   "keywords": [],
@@ -18,5 +18,8 @@
     "tsx": "^4.15.1",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
   }
 }
